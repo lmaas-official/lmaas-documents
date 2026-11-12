@@ -1,0 +1,220 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://35gates.com/#organization",
+      "name": "35門株式会社",
+      "alternateName": "35gates Inc.",
+      "url": "https://35gates.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JP",
+        "addressRegion": "東京都",
+        "addressLocality": "中央区",
+        "streetAddress": "日本橋室町1-11-12 日本橋水野ビル7階"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://lmaas.io/#service",
+      "name": "lmaas.io",
+      "alternateName": "ラマアズ",
+      "url": "https://lmaas.io",
+      "serviceType": "プライベートAI（自社専用AI）のクラウド提供",
+      "category": [
+        "Private AI",
+        "LLM hosting",
+        "RAG",
+        "LoRA fine-tuning"
+      ],
+      "description": "お客様ごとに分けられた環境で動くプライベートAI（ローカルAI）のクラウドサービス。1,000種類以上のオープンなLLMから選び、社内文書の参照（RAG）と自社データでの追加学習（LoRA）で自社専用のAIに育てて使える。資料・学習データ・会話は外部のAIサービスへ送らない（お客様が外部接続を設定した場合を除く）。月額固定。",
+      "provider": {
+        "@id": "https://35gates.com/#organization"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "機密情報を扱う法人・事業者"
+      },
+      "areaServed": "Worldwide",
+      "availableLanguage": [
+        "ja",
+        "en"
+      ],
+      "termsOfService": "https://lmaas.io/ja/terms",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "料金プラン（税別・2026-11-12時点。日本のお客様は日本円、日本以外のお客様は米ドル）",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Personal",
+            "description": "〜4B級モデル・共有GPU・利用者1人まで。初期費用96,000円。",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 64000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "月",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter",
+            "description": "〜8B級モデル・共有GPU・利用者3人まで。初期費用158,000円。",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 105000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "月",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter Plus",
+            "description": "〜8B級モデル・GPU占有・利用者10人まで。初期費用540,000円。",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 355000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "月",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business",
+            "description": "〜24B級モデル・共有GPU・利用者10人まで。初期費用320,000円。",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 218000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "月",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business Plus",
+            "description": "〜32B級モデル・GPU占有。初期費用750,000円。",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 560000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "月",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Personal (outside Japan)",
+            "description": "Same plan contents as Personal. Initial fee $600. Annual $4,320. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 400,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter (outside Japan)",
+            "description": "Same plan contents as Starter. Initial fee $980. Annual $7,128. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 660,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter Plus (outside Japan)",
+            "description": "Same plan contents as Starter Plus. Initial fee $3,380. Annual $24,300. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 2250,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business (outside Japan)",
+            "description": "Same plan contents as Business. Initial fee $2,000. Annual $14,904. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 1380,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business Plus (outside Japan)",
+            "description": "Same plan contents as Business Plus. Initial fee $4,688. Annual $37,800. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 3500,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          }
+        ]
+      },
+      "isRelatedTo": [
+        {
+          "@type": "WebPage",
+          "name": "よくある質問",
+          "url": "https://lmaas.io/ja#faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "プライバシーポリシー",
+          "url": "https://lmaas.io/ja/privacy"
+        },
+        {
+          "@type": "WebPage",
+          "name": "AIモデルのライセンス表示",
+          "url": "https://lmaas.io/ja/licenses"
+        }
+      ]
+    }
+  ]
+}
