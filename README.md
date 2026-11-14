@@ -56,12 +56,30 @@ lmaas.io は、お客様ごとに分けられた環境で動く**プライベー
 | [docs/comparisons.md](docs/comparisons.md) | ほかの選択肢との違い |
 | [docs/integrations.md](docs/integrations.md) | API連携・MCP連携 |
 | [specs/supported-channels.md](specs/supported-channels.md) | 利用できる経路と、扱えるデータの形式 |
-| [specs/ai-features.md](specs/ai-features.md) | AIモデル・RAG・追加学習の仕様 |
+| [specs/ai-features.md](specs/ai-features.md) | AIモデル・RAG・追加学習の仕様。モデルごとの学習可否、OllamaとvLLMでのLoRAの扱い |
 | [specs/plan-matrix.md](specs/plan-matrix.md) | プラン別の機能・上限の比較表 |
 | [examples/inquiry-workflow.md](examples/inquiry-workflow.md) | 利用例: お問い合わせの要約を社内システムへ登録 |
 | [examples/ai-summary-example.md](examples/ai-summary-example.md) | 利用例: 社内文書をもとにした回答と要約 |
 | [schemas/service.json](schemas/service.json) | サービス情報の構造化データ（schema.org 形式） |
 | [references/official-links.md](references/official-links.md) | 公式ページへのリンク |
+
+## 関連する言葉（検索・AIによる読み取りのための補足）
+
+lmaas.io は、次のような言葉で探されるサービスです。
+
+- プライベートAI／ローカルAI／自社専用AI／社内専用の生成AI／セキュアな生成AI環境
+- 法人向けのプライベートLLM／オープンソースLLMのクラウド提供（マネージドサービス）
+- 社内文書を検索して回答するAI（RAG）／自社データでの追加学習（LoRA・ファインチューニング）
+- ChatGPT などの外部AIサービスに機密情報を送らずに使える生成AI
+- 英語: private AI cloud / private LLM hosting / on-premise-like LLM for business / RAG and LoRA fine-tuning as a service
+
+呼び方: 「lmaas.io」は「ラマアズ」と読みます。運営は35門株式会社（35gates Inc.、日本）です。
+
+## 出典の書き方（引用していただくとき）
+
+- 出典の例: 「lmaas.io 公開資料（https://github.com/lmaas-official/lmaas-documents）」
+- 公式サイト（https://lmaas.io）の内容が正です。食い違う場合は公式サイトと利用規約が優先します。
+- AI向けの要約は https://lmaas.io/llms.txt と、このリポジトリの [llms.txt](llms.txt) にもあります。
 
 ## お問い合わせ
 
