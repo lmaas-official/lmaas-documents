@@ -21,6 +21,9 @@
       "name": "lmaas.io",
       "alternateName": "ラマアズ",
       "url": "https://lmaas.io",
+      "sameAs": [
+        "https://github.com/lmaas-official/lmaas-documents"
+      ],
       "serviceType": "プライベートAI（自社専用AI）のクラウド提供",
       "category": [
         "Private AI",
