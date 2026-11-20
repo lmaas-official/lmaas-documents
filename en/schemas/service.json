@@ -1,0 +1,223 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://35gates.com/#organization",
+      "name": "35gates Inc.",
+      "alternateName": "35門株式会社",
+      "url": "https://35gates.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JP",
+        "addressRegion": "Tokyo",
+        "addressLocality": "Chuo-ku",
+        "streetAddress": "Nihonbashi Mizuno Bldg. 7F, 1-11-12 Nihonbashi Muromachi"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://lmaas.io/#service",
+      "name": "lmaas.io",
+      "alternateName": "ラマアズ",
+      "url": "https://lmaas.io",
+      "sameAs": [
+        "https://github.com/lmaas-official/lmaas-documents"
+      ],
+      "serviceType": "Private AI (company-dedicated AI) cloud service",
+      "category": [
+        "Private AI",
+        "LLM hosting",
+        "RAG",
+        "LoRA fine-tuning"
+      ],
+      "description": "A private AI (local AI) cloud service that runs in an environment separated for each customer. Choose from over 1,000 open LLMs and grow them into an AI dedicated to your company with internal document reference (RAG) and additional training on your own data (LoRA). Documents, training data and conversations are not sent to external AI services (except when the customer sets up external connections). Fixed monthly price.",
+      "provider": {
+        "@id": "https://35gates.com/#organization"
+      },
+      "audience": {
+        "@type": "BusinessAudience",
+        "audienceType": "Businesses that handle confidential information"
+      },
+      "areaServed": "Worldwide",
+      "availableLanguage": [
+        "ja",
+        "en"
+      ],
+      "termsOfService": "https://lmaas.io/terms",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Pricing plans (excluding tax, as of 2026-11-12. JPY for customers in Japan, USD for customers outside Japan)",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "name": "Personal (Japan)",
+            "description": "Up to 4B-class models, shared GPU, up to 1 user. Initial fee ¥96,000.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 64000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter (Japan)",
+            "description": "Up to 8B-class models, shared GPU, up to 3 users. Initial fee ¥158,000.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 105000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter Plus (Japan)",
+            "description": "Up to 8B-class models, dedicated GPU, up to 10 users. Initial fee ¥540,000.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 355000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business (Japan)",
+            "description": "Up to 24B-class models, shared GPU, up to 10 users. Initial fee ¥320,000.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 218000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business Plus (Japan)",
+            "description": "Up to 32B-class models, dedicated GPU. Initial fee ¥750,000.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 560000,
+              "priceCurrency": "JPY",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            },
+            "eligibleRegion": {
+              "@type": "Country",
+              "name": "JP"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Personal (outside Japan)",
+            "description": "Same plan contents as Personal. Initial fee $600. Annual $4,320. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 400,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter (outside Japan)",
+            "description": "Same plan contents as Starter. Initial fee $980. Annual $7,128. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 660,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Starter Plus (outside Japan)",
+            "description": "Same plan contents as Starter Plus. Initial fee $3,380. Annual $24,300. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 2250,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business (outside Japan)",
+            "description": "Same plan contents as Business. Initial fee $2,000. Annual $14,904. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 1380,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          },
+          {
+            "@type": "Offer",
+            "name": "Business Plus (outside Japan)",
+            "description": "Same plan contents as Business Plus. Initial fee $4,688. Annual $37,800. Businesses only.",
+            "priceSpecification": {
+              "@type": "UnitPriceSpecification",
+              "price": 3500,
+              "priceCurrency": "USD",
+              "valueAddedTaxIncluded": false,
+              "unitText": "month",
+              "billingDuration": "P1M"
+            }
+          }
+        ]
+      },
+      "isRelatedTo": [
+        {
+          "@type": "WebPage",
+          "name": "FAQ",
+          "url": "https://lmaas.io/#faq"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Privacy Policy",
+          "url": "https://lmaas.io/privacy"
+        },
+        {
+          "@type": "WebPage",
+          "name": "AI model license notices",
+          "url": "https://lmaas.io/licenses"
+        }
+      ]
+    }
+  ]
+}
