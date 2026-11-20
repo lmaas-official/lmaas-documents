@@ -31,3 +31,22 @@
 - [lmaas.io（English）](https://lmaas.io/)
 - [AI向けの説明（llms.txt）](https://lmaas.io/llms.txt)
 - [お問い合わせ・お申込み](https://lmaas.io/ja/contact)
+
+## English documentation
+
+- [README (English)](en/README.md): overview and summary
+- [Overview](en/docs/overview.md)
+- [Features](en/docs/features.md)
+- [Pricing](en/docs/pricing.md)
+- [Security and data handling](en/docs/security.md)
+- [FAQ](en/docs/faq.md)
+- [Use cases](en/docs/use-cases.md)
+- [Comparisons](en/docs/comparisons.md)
+- [Integrations (API and MCP)](en/docs/integrations.md)
+- [AI feature specifications](en/specs/ai-features.md)
+- [Plan comparison table](en/specs/plan-matrix.md)
+- [Available channels and supported data](en/specs/supported-channels.md)
+- [Structured data (schema.org)](en/schemas/service.json)
+- [Contact (English)](https://lmaas.io/contact)
+
+The Japanese documents are the original. If the English and Japanese versions differ, the Japanese version takes precedence.

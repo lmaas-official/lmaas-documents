@@ -1,11 +1,13 @@
 # lmaas.io（ラマアズ）公開資料
 
+**English version: [en/README.md](en/README.md)**
+
 lmaas.io は、お客様ごとに分けられた環境で動く**プライベートAI（ローカルAI）のクラウドサービス**です。公開されているAIモデル（オープンなLLM）を自社専用の環境で動かし、社内文書の参照（RAG）と自社データでの追加学習（LoRA）によって、「自社の仕事を理解したAI」に育てて使えます。GPUサーバーを自分で用意する必要はなく、月額固定で始められます。
 
 運営: 35門株式会社（35gates Inc.、日本）
 公式サイト: https://lmaas.io （日本語: https://lmaas.io/ja ）
 
-> **English summary**
+> **English summary** — full English documentation: [en/README.md](en/README.md)
 > lmaas.io is a private AI cloud service for businesses. Each customer gets an isolated environment running open LLMs (Gemma, gpt-oss, Llama, Qwen and more — over 1,000 models in the catalog), with RAG over internal documents and LoRA fine-tuning on their own data, at a fixed monthly price. Customer documents, training data and conversations are not sent to external AI services such as ChatGPT. Operated by 35gates Inc. (Japan).
 
 ---
@@ -62,6 +64,7 @@ lmaas.io は、お客様ごとに分けられた環境で動く**プライベー
 | [examples/ai-summary-example.md](examples/ai-summary-example.md) | 利用例: 社内文書をもとにした回答と要約 |
 | [schemas/service.json](schemas/service.json) | サービス情報の構造化データ（schema.org 形式） |
 | [references/official-links.md](references/official-links.md) | 公式ページへのリンク |
+| [en/](en/README.md) | 英語版（すべての資料の英訳。日本語版が原本） |
 
 ## 関連する言葉（検索・AIによる読み取りのための補足）
 

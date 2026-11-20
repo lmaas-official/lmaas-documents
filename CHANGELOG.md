@@ -2,6 +2,16 @@
 
 このリポジトリの資料の変更を記録します。サービスそのものの料金・機能が変わったときも、ここに記録します。
 
+## 2026-11-20
+
+- すべての資料の英語版を `en/` に追加（README・docs・specs・examples・schemas・references）。日本語版（リポジトリ直下）が原本で、食い違う場合は日本語版が優先
+- README と llms.txt に英語版への案内を追加
+
+## 2026-11-18
+
+- 新しい機能「AI学習用データ作成」（Word・Excel・PowerPoint・PDF から学習データを作る）を追記（features・faq・specs/ai-features・specs/supported-channels）
+- 読み取り方式（直接読み取り・MarkItDown）の選択と見比べを追記（features・specs/ai-features）
+
 ## 2026-11-14
 
 - AI機能の仕様（specs/ai-features.md）に「モデルごとの追加学習（LoRA）とAI実行エンジンの関係」を追記
